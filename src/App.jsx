@@ -100,7 +100,7 @@ export const App = () => {
 
       <ul>
         {goods.map(good => (
-          <li key={good.id} data-cy="Good">
+          <li key={good} data-cy="Good">
             {good}
           </li>
         ))}
